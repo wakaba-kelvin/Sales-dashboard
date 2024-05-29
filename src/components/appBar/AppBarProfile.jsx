@@ -10,7 +10,7 @@ const AppBarProfile = () => {
         </div>
         <div className="drop-info-text">
           <div className="info-text-group">
-            <span>Musfiq</span>
+            <span>kimani</span>
             <span>Admin</span>
           </div>
           <img src={Icons.ChevronDownDark} className="drop-icon" alt="" />
