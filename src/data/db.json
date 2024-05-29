@@ -1,0 +1,88 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "invoiceNumber": "INV001",
+      "schoolId": 1,
+      "invoiceItems": [
+        {
+          "itemName": "Zeraki Analytics",
+          "amount": 1500
+        },
+        {
+          "itemName": "Zeraki Finance",
+          "amount": 1200
+        }
+      ],
+      "creationDate": "2024-06-01",
+      "dueDate": "2024-06-30",
+      "paidAmount": 2500,
+      "completionStatus": "completed",
+      "collection": 2500,
+      "balance": 0
+    },
+    {
+      "id": 2,
+      "invoiceNumber": "INV002",
+      "schoolId": 2,
+      "invoiceItems": [
+        {
+          "itemName": "Zeraki Analytics",
+          "amount": 1800
+        }
+      ],
+      "creationDate": "2024-06-15",
+      "dueDate": "2024-07-15",
+      "paidAmount": 0,
+      "completionStatus": "pending",
+      "collection": 0,
+      "balance": 1800
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "schoolName": "ABC Primary School",
+      "schoolType": "Primary",
+      "productType": "Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-05-10",
+      "contactInformation": "info@abcprimaryschool.com",
+      "schoolBalance": 500,
+      "collection": 2500,
+      "dueDate": "2024-06-30"
+    },
+    {
+      "id": 2,
+      "schoolName": "XYZ Secondary School",
+      "schoolType": "Secondary",
+      "productType": "Finance",
+      "county": "Mombasa",
+      "registrationDate": "2021-12-20",
+      "contactInformation": "info@xyzsecondaryschool.com",
+      "schoolBalance": 0,
+      "collection": 0,
+      "dueDate": "2024-07-15"
+    },
+    {
+      "id": "7de1",
+      "schoolName": "23456",
+      "schoolType": "asdrftg",
+      "county": "asdf",
+      "registrationDate": "2024-05-30",
+      "contactInformation": "qwerty",
+      "collection": "2345",
+      "dueDate": "2024-06-01"
+    },
+    {
+      "id": "104a",
+      "schoolName": "Nyeri High",
+      "schoolType": "secondary",
+      "county": "wert",
+      "registrationDate": "2024-05-31",
+      "contactInformation": "qwerty",
+      "collection": "234",
+      "dueDate": "2024-05-02"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .quick-action button {
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .quick-action button:hover {
+    background-color: #45a049;
+  }
+  .quick-action button.view {
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .quick-action button.update {
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .quick-action button.delete {
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #dc3545; /* Red color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .quick-action button:hover {
+    opacity: 0.8;
+  }
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .upper h3 {
+    margin: 0;
+  }
+  
+  .upper button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upper button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  
+  
