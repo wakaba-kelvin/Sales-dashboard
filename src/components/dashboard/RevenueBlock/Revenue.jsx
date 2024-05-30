@@ -93,7 +93,7 @@ const Revenue = () => {
               }}
             />
             <Bar
-              dataKey="online"
+              dataKey="Primary"
               fill="#0095FF"
               activeBar={false}
               isAnimationActive={false}
@@ -101,8 +101,16 @@ const Revenue = () => {
               barSize={18}
             />
             <Bar
-              dataKey="offline"
+              dataKey="Secondary"
               fill="#00E096"
+              activeBar={false}
+              isAnimationActive={false}
+              radius={[4, 4, 4, 4]}
+              barSize={18}
+            />
+             <Bar
+              dataKey="IGCSE"
+              fill="#00E78"
               activeBar={false}
               isAnimationActive={false}
               radius={[4, 4, 4, 4]}

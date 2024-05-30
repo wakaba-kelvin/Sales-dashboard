@@ -1,38 +1,45 @@
 export const REVENUE_DATA = [
     {
       day: "Mon",
-      online: 14,
-      offline: 12.5,
+      Primary: 14,
+      Secondary: 12,
+      IGCSE:7,
     },
     {
       day: "Tue",
-      online: 17,
-      offline: 12,
+      Primary: 17,
+      Secondary: 12,
+      IGCSE:7,
     },
     {
       day: "Wed",
-      online: 6,
-      offline: 23,
+      Primary: 6,
+      Secondary: 23,
+      IGCSE:7,
     },
     {
       day: "Thu",
-      online: 16,
-      offline: 7,
-    },
+      Primary: 16,
+      Secondary: 7,
+
+IGCSE:7,    },
     {
       day: "Fri",
-      online: 13,
-      offline: 12,
+      Primary: 13,
+      Secondary: 12,
+      IGCSE:7,
     },
     {
       day: "Sat",
-      online: 17,
-      offline: 13,
+      Primary: 17,
+      Secondary: 13,
+      IGCSE:7,
     },
     {
       day: "Sun",
-      online: 21,
-      offline: 12,
+      Primary: 21,
+      Secondary: 12,
+      IGCSE:7,
     },
   ];
   

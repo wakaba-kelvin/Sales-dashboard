@@ -22,7 +22,7 @@ const Sidebar = () => {
           <span className="brand-logo">
             <img src={Icons.LogoWhite} alt="site brand logo" />
           </span>
-          <span className="brand-text">Thanos.</span>
+          <span className="brand-text">Zeraki.</span>
         </div>
         <button
           className="sidebar-close-btn"
