@@ -1,7 +1,7 @@
 {
   "invoices": [
     {
-      "id": 1,
+      "id": "1",
       "invoiceNumber": "INV001",
       "schoolId": 1,
       "invoiceItems": [
@@ -22,7 +22,7 @@
       "balance": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "invoiceNumber": "INV002",
       "schoolId": 2,
       "invoiceItems": [
@@ -41,7 +41,7 @@
   ],
   "schools": [
     {
-      "id": 1,
+      "id": "1",
       "schoolName": "ABC Primary School",
       "schoolType": "Primary",
       "productType": "Analytics",
@@ -53,7 +53,7 @@
       "dueDate": "2024-06-30"
     },
     {
-      "id": 2,
+      "id": "2",
       "schoolName": "XYZ Secondary School",
       "schoolType": "Secondary",
       "productType": "Finance",
@@ -65,16 +65,6 @@
       "dueDate": "2024-07-15"
     },
     {
-      "id": "7de1",
-      "schoolName": "23456",
-      "schoolType": "asdrftg",
-      "county": "asdf",
-      "registrationDate": "2024-05-30",
-      "contactInformation": "qwerty",
-      "collection": "2345",
-      "dueDate": "2024-06-01"
-    },
-    {
       "id": "104a",
       "schoolName": "Nyeri High",
       "schoolType": "secondary",
@@ -83,6 +73,27 @@
       "contactInformation": "qwerty",
       "collection": "234",
       "dueDate": "2024-05-02"
+    },
+    {
+      "id": "e954",
+      "schoolName": "Nyeri ",
+      "schoolType": "Primary",
+      "county": "wert",
+      "registrationDate": "2024-05-26",
+      "contactInformation": "123456",
+      "collection": "1234",
+      "dueDate": "2024-05-31"
+    },
+    {
+      "id": "2ebb",
+      "schoolName": "kimani",
+      "schoolType": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "laikipia",
+      "registrationDate": "2024-05-28",
+      "contactInformation": "123456",
+      "collection": "123",
+      "dueDate": "2024-06-30"
     }
   ]
 }
